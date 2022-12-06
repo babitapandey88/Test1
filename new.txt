@@ -1,0 +1,8 @@
+configuration='(//a[@class="actuator"])[1]'
+security='(//a[@class="actuator"])[6]'
+switch='(//a[@class="actuator"])[7]'
+snmp='(//a[@class="actuator"])[8]'
+system='//a[@href="snmp.htm"]'
+
+driver.get("https://admin:admin@10.10.2.94")
+driver.switch_to.frame("contents")
